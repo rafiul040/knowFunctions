@@ -47,3 +47,42 @@ simpleArrowFunction(5)
 
 const miniFunctionWithSingleParameter = a => a * 2;
 console.log(miniFunctionWithSingleParameter(5)) 
+
+
+
+
+
+
+let name = "Rafiul";
+
+
+function attachMent(arguments){
+     return name + arguments
+}
+console.log(attachMent(" Islam"))
+
+
+
+
+
+function loopTo10(){
+    for(let i = 0; i <= 10; i++){
+        console.log(i)
+    }
+}
+loopTo10()
+
+
+
+
+function odd_even(num){
+    if(num % 2 === 0){
+        console.log("Even Number")
+    }
+    else{
+        console.log("Odd Number")
+    }
+    return num
+}
+
+odd_even(50)
