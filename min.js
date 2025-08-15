@@ -12,7 +12,7 @@ function getMinWithForOf(numbers){
 }
 
 const cheapest = getMinWithForOf(prices)
-// console.log('Chepest One is', cheapest)
+console.log('Chepest One is', cheapest)
 
 
 
@@ -33,7 +33,7 @@ function getMinWithForLoop(numbers){
 
 
 const cheap = getMinWithForLoop(prices)
-// console.log('Chepest One is', cheap)
+console.log('Chepest One is', cheap)
 
 
 
@@ -58,7 +58,7 @@ function getChepestPhone(phones){
 }
 
 const hone = getChepestPhone(mobiles)
-// console.log(hone)
+console.log(hone)
 
 
 
@@ -79,11 +79,11 @@ function getShoppingTotal(products){
         sum += product.price
     }
     return sum
-    // console.log(sum)
+    console.log(sum)
 }
 
 const total = getShoppingTotal(products)
-// console.log("Total ", total)
+console.log("Total ", total)
 
 
 
@@ -91,24 +91,24 @@ const total = getShoppingTotal(products)
 
 
 
-// const products1 = [
-//     {name: "Shampoo", price: 300, quantity: 2},
-//     {name: "Chironi", price: 100, quantity: 3},
-//     {name: "Shirt", price: 700, quantity: 5},
-//     {name: "Pant", price: 1200, quantity: 1}
-// ]
+const products1 = [
+    {name: "Shampoo", price: 300, quantity: 2},
+    {name: "Chironi", price: 100, quantity: 3},
+    {name: "Shirt", price: 700, quantity: 5},
+    {name: "Pant", price: 1200, quantity: 1}
+]
 
-// function cartTotals(products){
-//     let total = 0
-//     for(const product of products){
-//         const thisItemCost = product.price * product.quantity
-//         total += thisItemCost;
-//     }
-//     return total
-// }
+function cartTotals(products){
+    let total = 0
+    for(const product of products){
+        const thisItemCost = product.price * product.quantity
+        total += thisItemCost;
+    }
+    return total
+}
 
-// const totals = cartTotals(products1)
-// console.log("Total ", totals)
+const totals = cartTotals(products1)
+console.log("Total ", totals)
 
 
 
@@ -135,7 +135,7 @@ function cartTotals(products){
 }
 
 const totals = cartTotals(products1)
-// console.log("Total ", totals)
+console.log("Total ", totals)
 
 
 
@@ -159,7 +159,7 @@ function discountedPrice(quantity){
 
 
 
-// console.log(discountedPrice(120))
+console.log(discountedPrice(120))
 
 
 
