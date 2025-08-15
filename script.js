@@ -86,3 +86,8 @@ function odd_even(num){
 }
 
 odd_even(50)
+
+
+
+
+
