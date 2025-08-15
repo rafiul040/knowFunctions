@@ -2,10 +2,10 @@ const disha = 35;
 const salman = 50;
 
 if(disha > salman){
-    // console.log("disha will get the strawberry")
+    console.log("disha will get the strawberry")
 }
 else{
-    // console.log("Salman the will get the strawberry")
+    console.log("Salman the will get the strawberry")
 }
 
 
@@ -20,7 +20,7 @@ function getMax(n1, n2){
 const max = getMax(100, 99);
 const max2 = getMax(56, 98);
 const ultimateMax = getMax(max, max2)
-// console.log("max of two is", ultimateMax)
+console.log("max of two is", ultimateMax)
 
 
 
