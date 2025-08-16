@@ -61,7 +61,33 @@ function countVowels(str){
     }
     return count
 }
-console.log(countVowels("RAFIUL"))
+// console.log(countVowels("RAFIUL"))
+
+
+
+
+function cashout(money){
+    let charge = money * 0.0175
+    let fixedCharge = charge.toFixed(2)
+    if(money < 0 || typeof money !== 'number'){
+        return 'invalid'
+    }
+    return fixedCharge;
+}
+
+
+console.log(cashout("100"))
+
+
+
+
+
+
+function validContact(){
+    
+}
+
+
 
 
 
