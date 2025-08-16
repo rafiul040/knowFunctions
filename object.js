@@ -83,15 +83,40 @@ console.log(cashout("100"))
 
 
 
-function validContact(){
-    
+function validContact(contact){
+    if(contact.length == 11 && contact.startsWith("01") == true && contact.includes(" ") != true)
+    // if(contact.length !== 11){
+    //     return false
+    // }
+    // if(contact.startsWith("01") == false){
+    //     return false;
+    // }
+    // if(contact.includes(" ") === true){
+    //     return false
+    // }
+    return true
+}
+console.log(validContact('01903168428'));
+
+
+
+function person(male, female){
+    if(typeof male !== "object" || typeof female !== "object"){
+        return 'invalid'
+    }
+    if(male.gender === female.gender){
+        return false;
+    }
+    if(Math.abs(male.age - female.age) > 7){
+        return false
+    }
+
+    return true
 }
 
+// node object.js
 
-
-
-
-
+console.log(person({name: "rafiul", age: 21}, {name: "mariya", age: 21}))
 
 
 
